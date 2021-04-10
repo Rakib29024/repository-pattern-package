@@ -6,6 +6,6 @@
 
 #### composer require rakib29024/laravel-repository-pattern
 
-#### Available Commands
-### php artisan repository:generate
-### php artisan make:repository Test\TestRepository -i(interface) -g(common repository generate)
+# Available Commands:
+#### php artisan repository:generate
+#### php artisan make:repository Test\TestRepository -i(interface) -g(common repository generate)
