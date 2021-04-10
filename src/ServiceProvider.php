@@ -12,12 +12,12 @@ class ServiceProvider extends LaravelServiceProvider
     public function register()
     {
         $this->commands([
-            Commands\CommonRepository::class,
-            Commands\CommonRepositoryInterface::class,
-            Commands\MakeRepository::class,
-            Commands\MakeRepositoryInterface::class,
-            Commands\Repository::class,
-            Commands\RepositoryGenerate::class,
+            Console\Commands\CommonRepository::class,
+            Console\Commands\CommonRepositoryInterface::class,
+            Console\Commands\MakeRepository::class,
+            Console\Commands\MakeRepositoryInterface::class,
+            Console\Commands\Repository::class,
+            Console\Commands\RepositoryGenerate::class,
         ]);
     }
 
@@ -35,12 +35,12 @@ class ServiceProvider extends LaravelServiceProvider
     public function provides()
     {
         return [
-            Commands\CommonRepository::class,
-            Commands\CommonRepositoryInterface::class,
-            Commands\MakeRepository::class,
-            Commands\MakeRepositoryInterface::class,
-            Commands\Repository::class,
-            Commands\RepositoryGenerate::class,
+            Console\Commands\CommonRepository::class,
+            Console\Commands\CommonRepositoryInterface::class,
+            Console\Commands\MakeRepository::class,
+            Console\Commands\MakeRepositoryInterface::class,
+            Console\Commands\Repository::class,
+            Console\Commands\RepositoryGenerate::class,
         ];
     }
 }
