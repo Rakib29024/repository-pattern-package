@@ -21,7 +21,7 @@ class CommonRepository extends GeneratorCommand
 
     protected function getStub()
     {
-        return app_path().'/Console/Stubs/common-repository.stub';
+        return '../../Console/Stubs/common-repository.stub';
     }
     protected function getDefaultNamespace($rootNamespace)
     {

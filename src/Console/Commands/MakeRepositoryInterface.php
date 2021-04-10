@@ -20,7 +20,7 @@ class MakeRepositoryInterface extends GeneratorCommand
 
     protected function getStub()
     {
-        return app_path().'/Console/Stubs/repository-interface.stub';
+        return '../../Console/Stubs/repository-interface.stub';
     }
     protected function getDefaultNamespace($rootNamespace)
     {

@@ -23,7 +23,7 @@ class MakeRepository extends GeneratorCommand
 
     protected function getStub()
     {
-        return  app_path().'/Console/Stubs/repository.stub';
+        return  '../..//Console/Stubs/repository.stub';
     }
     protected function getDefaultNamespace($rootNamespace)
     {

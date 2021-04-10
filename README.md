@@ -5,6 +5,7 @@
 # Installation
 
 #### composer require rakib29024/laravel-repository-pattern
+#### In you app/config.php file add this>>>> Rakib29024\Repository\ServiceProvider::class
 
 # Available Commands:
 #### php artisan repository:generate
