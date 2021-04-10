@@ -7,7 +7,6 @@ use Illuminate\Console\GeneratorCommand;
 
 class CommonRepository extends GeneratorCommand
 {
-    public $path='Rakib29024/Repository';
     /**
      * The name and signature of the console command.
      *
@@ -21,7 +20,7 @@ class CommonRepository extends GeneratorCommand
 
     protected function getStub()
     {
-        return '../../Console/Stubs/common-repository.stub';
+        return 'Rakib29024/Repository/Console/Stubs/common-repository.stub';
     }
     protected function getDefaultNamespace($rootNamespace)
     {

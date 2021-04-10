@@ -1,6 +1,6 @@
 # Make you code invincible !
 
-## This package is developed to reduce code & secure you attributes & methods with repository pattern system
+## This package is developed to reduce code & secure your attributes & methods with repository pattern system
 
 # Installation
 
