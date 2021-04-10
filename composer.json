@@ -1,0 +1,20 @@
+{
+    "name": "rakib29024/laravel-repository-pattern",
+    "type": "library",
+    "description": "This package is developed to reduce code & secure you attributes & methods with repository pattern system",
+    "keywords": ["repository","pattern","interface","CLI"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Rakib Hassan",
+            "email": "rakib29024@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Rakib29024\\Repository\\": "src/"
+        }
+    }
+}

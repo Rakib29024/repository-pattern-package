@@ -1,0 +1,22 @@
+<?php
+namespace {{ namespace }};
+
+use {{ namespace }}\{{ class }}Interface;
+
+Class {{ class }} implements {{ class }}Interface
+{
+    public ${{ class }};
+
+    public function __construct({{ class }} ${{ class }}) {
+        //parent::__construct(${{ class }});
+        $this->{{ class }} = ${{ class }};
+    }
+
+
+    public function all()
+    {
+        return 0;
+    }
+
+
+}
