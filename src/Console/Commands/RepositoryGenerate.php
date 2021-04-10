@@ -1,6 +1,6 @@
 <?php
 
-namespace Rakib29024\Repository\Facades\Console\Commands;
+namespace Rakib29024\Repository\Console\Commands;
 
 use Illuminate\Console\Command;
 class RepositoryGenerate extends Command
