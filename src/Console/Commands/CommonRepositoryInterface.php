@@ -21,7 +21,7 @@ class CommonRepositoryInterface extends GeneratorCommand
 
     protected function getStub()
     {
-        return 'Rakib29024/Repository/Console/Stubs/common-repository-interface.stub';
+        return __DIR__.'/../../Console/Stubs/common-repository-interface.stub';
     }
     protected function getDefaultNamespace($rootNamespace)
     {
