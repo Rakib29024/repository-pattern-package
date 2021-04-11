@@ -16,12 +16,5 @@
         "psr-4": {
             "Rakib29024\\Repository\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Rakib29024\\Repository\\ServiceProvider"
-            ]
-        }
     }
 }

@@ -11,14 +11,7 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function register()
     {
-        $this->commands([
-            Console\Commands\CommonRepository::class,
-            Console\Commands\CommonRepositoryInterface::class,
-            Console\Commands\MakeRepository::class,
-            Console\Commands\MakeRepositoryInterface::class,
-            Console\Commands\Repository::class,
-            Console\Commands\RepositoryGenerate::class,
-        ]);
+        $this->commands($this->provides());
     }
 
     /**
